@@ -11,7 +11,7 @@ export const profile = {
   email: "navadiyadrashtin07@gmail.com",
   githubUsername: "drashtin",
   github: "https://github.com/drashtin",
-  linkedin: "https://www.linkedin.com/in/drashtin-navadiya",
+  linkedin: "https://www.linkedin.com/in/drashtin-navadiya-b02303277",
   resumeUrl: "/drashtin-navadiya-resume.pdf",
   availability: "Available for freelance & full-time roles",
   headline: "Full Stack Developer Building Modern Web Experiences",

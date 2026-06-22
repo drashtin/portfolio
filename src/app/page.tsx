@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
+import { BackToTop } from "@/components/common/back-to-top";
 import { Hero } from "@/sections/hero";
 import { About } from "@/sections/about";
 import { Skills } from "@/sections/skills";
@@ -28,6 +29,7 @@ export default async function HomePage() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </>
   );
 }

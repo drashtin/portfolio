@@ -4,7 +4,7 @@ import { ArrowUp, Heart, Sparkles } from "lucide-react";
 import { navLinks, profile, socialLinks } from "@/data/profile";
 
 export function Footer() {
-  const year = 2026; // build-time constant; update annually
+  const year = new Date().getFullYear();
 
   return (
     <footer className="relative border-t border-white/10 bg-surface/40 backdrop-blur-xl">
@@ -82,11 +82,15 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row">
-          <p className="flex items-center gap-1.5 text-sm text-muted">
-            © {year} {profile.name}. Built with
-            <Heart className="h-3.5 w-3.5 text-secondary" /> using Next.js &
-            Tailwind.
-          </p>
+          <div className="flex flex-col items-center gap-1 sm:items-start">
+            <p className="text-sm text-muted">
+              © {year} {profile.name}. All rights reserved.
+            </p>
+            <p className="flex items-center gap-1.5 text-xs text-muted/60">
+              Built with <Heart className="h-3 w-3 text-secondary" /> using
+              Next.js & Tailwind
+            </p>
+          </div>
           <a
             href="#top"
             className="group flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-muted transition-all duration-300 hover:border-accent/30 hover:text-accent"

@@ -6,7 +6,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: `${profile.name} — ${profile.title}`,
     short_name: profile.firstName,
     description:
-      "Premium developer portfolio of Drashtin Navadiya, Full Stack Developer.",
+      "Premium developer portfolio of Drashtin Navadiya, MERN Stack Developer.",
     start_url: "/",
     display: "standalone",
     background_color: "#020617",

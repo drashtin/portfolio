@@ -95,7 +95,7 @@ export function About() {
             >
               {[
                 { k: "Based in", v: "Surat, India" },
-                { k: "Focus", v: "Full Stack Web" },
+                { k: "Focus", v: "MERN Stack" },
                 { k: "Open to", v: "Freelance & Full-time" },
               ].map((item) => (
                 <div

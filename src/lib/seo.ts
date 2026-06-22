@@ -8,9 +8,12 @@ export const siteConfig = {
   shortName: profile.name,
   title: `${profile.name} | ${profile.title}`,
   description:
-    "Drashtin Navadiya is a Full Stack Developer in Surat, India, building scalable web applications with React, Next.js, Node.js, Express, MongoDB and MySQL — including project management systems, marketplaces and travel booking platforms.",
+    "Drashtin Navadiya is a MERN Stack Developer in Surat, India, building scalable web applications with MongoDB, Express, React, Node.js and Next.js — including project management systems, marketplaces and travel booking platforms.",
   keywords: [
     "Drashtin Navadiya",
+    "MERN Stack Developer",
+    "MERN Developer",
+    "MongoDB Express React Node Developer",
     "Full Stack Developer",
     "React Developer",
     "Next.js Developer",

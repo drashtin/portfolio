@@ -4,7 +4,7 @@ import type { NavLink, SocialLink } from "@/types";
 export const profile = {
   name: "Drashtin Navadiya",
   firstName: "Drashtin",
-  title: "Full Stack Developer",
+  title: "MERN Stack Developer",
   location: "Surat, Gujarat, India",
   domain: "drashtin.in",
   url: "https://drashtin.in",
@@ -12,20 +12,20 @@ export const profile = {
   githubUsername: "drashtin",
   github: "https://github.com/drashtin",
   linkedin: "https://www.linkedin.com/in/drashtin-navadiya-b02303277",
-  resumeUrl: "/drashtin-navadiya-resume.pdf",
+  resumeUrl: "/Drashtin_Navadiya_Resume.pdf",
   availability: "Available for freelance & full-time roles",
-  headline: "Full Stack Developer Building Modern Web Experiences",
+  headline: "MERN Stack Developer Building Modern Web Experiences",
   subheadline:
     "I build scalable web applications using React.js, Next.js, Node.js, MongoDB, and modern web technologies.",
   // Rotating roles used by the hero typing effect
   roles: [
-    "Full Stack Developer",
+    "MERN Stack Developer",
     "React & Next.js Engineer",
     "Node.js & API Developer",
     "Scalable Web App Builder",
   ],
   summary:
-    "I'm a Full Stack Developer with hands-on experience building scalable web applications end to end — from polished, responsive interfaces in React and Next.js to robust REST APIs and data models in Node.js, Express, MongoDB, and MySQL. I've shipped project management systems, service marketplaces, and travel booking platforms, integrating Google APIs and Stripe along the way, always with a clean, maintainable architecture mindset.",
+    "I'm a MERN Stack Developer with hands-on experience building scalable web applications end to end — from polished, responsive interfaces in React and Next.js to robust REST APIs and data models in Node.js, Express, MongoDB, and MySQL. I've shipped project management systems, service marketplaces, and travel booking platforms, integrating Google APIs and Stripe along the way, always with a clean, maintainable architecture mindset.",
 } as const;
 
 export const navLinks: NavLink[] = [

@@ -42,7 +42,7 @@ export function Hero() {
               Hi, I&apos;m {profile.name} 👋
             </span>
             <h1 className="text-balance text-4xl font-bold leading-[1.08] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Full Stack Developer Building{" "}
+              MERN Stack Developer Building{" "}
               <span className="text-gradient">Modern Web Experiences</span>
             </h1>
           </motion.div>

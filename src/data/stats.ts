@@ -16,7 +16,7 @@ export const githubFallback: GitHubData = {
     login: "drashtin",
     name: "Drashtin Navadiya",
     avatarUrl: "https://avatars.githubusercontent.com/u/0?v=4",
-    bio: "Full Stack Developer — React, Next.js, Node.js, MongoDB.",
+    bio: "MERN Stack Developer — React, Next.js, Node.js, MongoDB.",
     followers: 0,
     following: 0,
     publicRepos: 12,

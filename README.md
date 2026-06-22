@@ -42,11 +42,11 @@ GITHUB_TOKEN=        # optional — raises GitHub API rate limit
 
 The GitHub showcase works without a token; a token only raises the rate limit.
 
-### Regenerate the résumé PDF
+### Résumé
 
-```bash
-node scripts/generate-resume.mjs
-```
+The downloadable résumé lives at `public/Drashtin_Navadiya_Resume.pdf` and is
+linked from the hero "Download Resume" button via `profile.resumeUrl`. Replace
+that file (keeping the name) to update the résumé.
 
 ## Project Structure
 

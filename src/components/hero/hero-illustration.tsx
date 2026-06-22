@@ -32,7 +32,7 @@ const codeLines: { tokens: { text: string; className: string }[] }[] = [
     tokens: [
       { text: "  role", className: "text-accent" },
       { text: ": ", className: "text-muted" },
-      { text: "'Full Stack Developer'", className: "text-emerald-300" },
+      { text: "'MERN Stack Developer'", className: "text-emerald-300" },
       { text: ",", className: "text-muted" },
     ],
   },
